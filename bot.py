@@ -418,6 +418,7 @@ async def on_ready():
     await asyncio.sleep(10)
     check_youtube.start()
     check_twitch.start()
+    #this is a test
 
 # Run the bot
 bot.run(TOKEN)
